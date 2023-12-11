@@ -1,0 +1,18 @@
+name: MvtpWrapper
+version: 1.0.0
+main: com.mnyacat.mvtpwrapper.MvtpWrapper
+description: Wrapper for Multiverse-Core Teleport Command
+author: MnyaCat
+website: https://github.com/MnyaCat/mvtp-wrapper
+api-version: '1.20'
+depend: [Multiverse-Core, Multiverse-NetherPortals]
+
+#commands:
+#  world:
+#    description: worldへテレポートします
+#    usage: /<command>
+#    permission: mvtpwrapper.teleport.world
+#  terralith:
+#    description: terralithへテレポートします
+#    usage: /<command>
+#    permission: mvtpwrapper.teleport.terralith
