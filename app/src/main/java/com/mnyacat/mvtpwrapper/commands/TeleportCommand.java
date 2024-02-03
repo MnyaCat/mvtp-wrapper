@@ -115,7 +115,7 @@ public class TeleportCommand extends MvtpWrapperCommand {
                 return false;
             } else if (sendPlayer.getUniqueId() != targetPlayer.getUniqueId()
                     && !sender.hasPermission("mvtpwrapper.teleport.other")) {
-                sender.sendRichMessage("<red>他のプレイヤーをテレポートするにはパーミッション[mvtpwrapper.teleport.other]が必要です。");
+                sender.sendRichMessage("<red>他のプレイヤーをテレポートするにはパーミッション[.other]が必要です。");
                 return false;
             }
         }
