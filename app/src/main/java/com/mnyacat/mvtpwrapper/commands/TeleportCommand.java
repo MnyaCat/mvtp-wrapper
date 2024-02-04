@@ -102,10 +102,6 @@ public class TeleportCommand extends MvtpWrapperCommand {
             teleportMode = TeleportMode.DEFAULT;
         }
 
-        if (Objects.isNull(teleportMode)) {
-            teleportMode = TeleportMode.DEFAULT;
-        }
-
         // TODO: OP権限を自動でパスできるようにする
         if (sender instanceof Player) {
             Player sendPlayer = (Player) sender;
